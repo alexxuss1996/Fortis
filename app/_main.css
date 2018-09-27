@@ -15,12 +15,12 @@
 	opacity: 1;
 }
 
-body input[type=text]:required:valid, 
+body input[type=text]:focus:required:valid, 
 body textarea:required:valid {
 	border-color: #0f0;
 }
 
-body input[type=text]:required:invalid, 
+body input[type=text]:focus:required:invalid, 
 body textarea:required:invalid  {
 	border-color: #f00;
 }
